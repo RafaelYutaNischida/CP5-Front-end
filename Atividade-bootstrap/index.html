@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">GrãoNobre</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Comprar agora
+                    </button>
+                
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Faça seu pedido:</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                                    <label class="form-check-label" for="checkDefault">
+                                        Kit de degustação
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                                    <label class="form-check-label" for="checkDefault">
+                                        1 pacote de 250g
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                                    <label class="form-check-label" for="checkDefault">
+                                        5 pacotes de 250g
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Ir para o carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    
+    <section class="bg-light mb-5">
+        <div class="container">
+            <div class="row align-items-center g-4 mt-2">
+
+                <div class="col-md-6">
+                    <h1 class="fw-bold">
+                        Café de origem,<br>
+                        torrado com propósito.
+                    </h1>
+
+                    <p class="text-secondary mb-0">
+                        A Grão Nobre trabalha direto com pequenos produtores para levar até
+                        você grãos especiais, torrados em lotes pequenos toda semana.
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <img
+                        src="./imagem-1.webp"
+                        alt="Café de origem Grão Nobre"
+                        class="img-fluid w-100 rounded"
+                    >
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <div id="carouselExample" class="carousel slide w-50 mx-auto">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./imagem-2.JPG" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="./imagem-3.webp" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="./imagem-4.jpg" class="d-block w-100" alt="">
+        </div>
+    </div>
+
+        <button class="carousel-control-prev" type="button"
+            data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button"
+            data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+
+
+    
+    <section class="bg-light py-5 mt-5">
+        <div class="container">
+            <h1 class="h3 fw-bold text-center mb-3">
+                Perguntas frequentes
+            </h1>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne"
+                                    aria-expanded="false"
+                                    aria-controls="collapseOne">
+                                    Qual a validade do café após aberto?
+                                </button>
+                            </h2>
+                            <div id="collapseOne"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    A validade do nosso café dura entre 3 e 18 meses.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo"
+                                    aria-expanded="true"
+                                    aria-controls="collapseTwo">
+                                    Vocês entregam para todo o Brasil?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo"
+                                class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Sim! Enviamos para todas as regiões, com prazo médio de 3 a 7 dias úteis dependendo da localidade.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree"
+                                    aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Posso cancelar minha assinatura quando eu quiser?
+                                </button>
+                            </h2>
+                            <div id="collapseThree"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Você pode cancelar a assinatura diretamente com o nosso suporte.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-dark text-white text-center py-3">
+        © 2026 Grão Nobre. Marca fictícia criada para fins didáticos.
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
